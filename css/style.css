@@ -2,7 +2,14 @@
 /* HEADER */
 /**************************/
 .header {
+  background-color: red;
 }
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 /**************************/
 /* NAVIGATION */
 /**************************/
@@ -13,6 +20,18 @@
 }
 
 .nav-link {
+}
+
+/**************************/
+/* Title */
+/**************************/
+.title-container {
+  display: flex;
+  justify-content: center;
+  background-color: purple;
+}
+
+.title {
 }
 /**************************/
 /* HERO */
