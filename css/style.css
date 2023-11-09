@@ -36,3 +36,29 @@
 /**************************/
 /* HERO */
 /**************************/
+
+.hero-section {
+}
+
+.hero-container {
+  background-color: blue;
+  display: flex;
+}
+
+.hero-education-container {
+  width: 33.3%;
+  height: 30rem;
+  background-color: pink;
+}
+
+.hero-img-container {
+  width: 33.3%;
+  height: 30rem;
+  background-color: cadetblue;
+}
+
+.hero-short-about-container {
+  width: 33.3%;
+  height: 30rem;
+  background-color: aquamarine;
+}
