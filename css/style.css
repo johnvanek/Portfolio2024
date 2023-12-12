@@ -55,10 +55,19 @@
   width: 33.3%;
   height: 30rem;
   background-color: cadetblue;
+
+  /* max-width: 100%; */
+  /* overflow: hidden; */
 }
 
 .hero-short-about-container {
   width: 33.3%;
   height: 30rem;
-  background-color: aquamarine;
+  background-color: burlywood;
+}
+
+.hero-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Add this property */
 }
