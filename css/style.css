@@ -32,6 +32,12 @@
 }
 
 .title {
+  color: azure;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 2px;
 }
 /**************************/
 /* HERO */
@@ -54,10 +60,11 @@
 .hero-img-container {
   width: 33.3%;
   height: 30rem;
-  background-color: cadetblue;
-
-  /* max-width: 100%; */
-  /* overflow: hidden; */
+  background-color: rgb(27, 91, 155);
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 3px;
 }
 
 .hero-short-about-container {
@@ -70,4 +77,30 @@
   max-width: 100%;
   max-height: 100%;
   object-fit: contain; /* Add this property */
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: rgb(4, 175, 214);
+}
+
+.construction-div {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+.con-text-emph {
+  font-weight: bolder;
+  font-style: bold;
+  color: rgb(239, 73, 12);
+  text-decoration: underline;
+}
+
+.construction-text {
+  font-family: serif;
+}
+
+.construction-img {
+  max-width: 500px;
+  max-height: 500px;
 }
