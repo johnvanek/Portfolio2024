@@ -6,7 +6,7 @@ This is a personal portfolio site.
 
 ## URL
 
-http://www.whatever.website
+https://mellow-muffin-6e03d2.netlify.app/
 
 ## AUTHOR
 
